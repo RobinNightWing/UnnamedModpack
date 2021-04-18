@@ -1,0 +1,16 @@
+{
+  "name": "contenttweaker:uncommon_soil",
+  "mod": "contenttweaker",
+  "soil": {
+    "name": "contenttweaker:uncommon_soil",
+    "data": 0,
+    "ignoreMeta": true
+  },
+
+  "modifiers": {
+    "growTime": 0.6,
+    "dropChance": 1.6
+  },
+
+  "providedTags": [ "dirt", "grass" ]
+}

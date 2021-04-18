@@ -1,0 +1,16 @@
+{
+  "name": "contenttweaker:ketchup_soil",
+  "mod": "contenttweaker",
+  "soil": {
+    "name": "contenttweaker:ketchup_soil",
+    "data": 0,
+    "ignoreMeta": true
+  },
+
+  "modifiers": {
+    "growTime": 0.02,
+    "dropChance": 4.4
+  },
+
+  "providedTags": [ "dirt", "grass" ]
+}

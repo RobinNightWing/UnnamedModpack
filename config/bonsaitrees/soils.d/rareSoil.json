@@ -1,0 +1,16 @@
+{
+  "name": "contenttweaker:rare_soil",
+  "mod": "contenttweaker",
+  "soil": {
+    "name": "contenttweaker:rare_soil",
+    "data": 0,
+    "ignoreMeta": true
+  },
+
+  "modifiers": {
+    "growTime": 0.3,
+    "dropChance": 2
+  },
+
+  "providedTags": [ "dirt", "grass" ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "contenttweaker:epic_soil",
+  "mod": "contenttweaker",
+  "soil": {
+    "name": "contenttweaker:epic_soil",
+    "data": 0,
+    "ignoreMeta": true
+  },
+
+  "modifiers": {
+    "growTime": 0.1,
+    "dropChance": 2.4
+  },
+
+  "providedTags": [ "dirt", "grass" ]
+}

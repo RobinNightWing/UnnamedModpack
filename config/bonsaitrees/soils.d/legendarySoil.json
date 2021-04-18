@@ -1,0 +1,16 @@
+{
+  "name": "contenttweaker:legendary_soil",
+  "mod": "contenttweaker",
+  "soil": {
+    "name": "contenttweaker:legendary_soil",
+    "data": 0,
+    "ignoreMeta": true
+  },
+
+  "modifiers": {
+    "growTime": 0.05,
+    "dropChance": 3.2
+  },
+
+  "providedTags": [ "dirt", "grass" ]
+}

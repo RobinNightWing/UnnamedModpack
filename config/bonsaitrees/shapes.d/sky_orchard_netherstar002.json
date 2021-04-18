@@ -1,0 +1,51 @@
+{
+  "type": "sky_orchard:netherstar",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sky_orchards:leaves_netherstar",
+      "meta": 8
+    },
+    "b": {
+      "name": "sky_orchards:log_netherstar",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      "aaaa ",
+      "aaaaa",
+      "     "
+    ],
+    [
+      "  a  ",
+      "  a  ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      "  aa ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " aaaa",
+      " aaaa",
+      "     "
+    ]
+  ]
+}

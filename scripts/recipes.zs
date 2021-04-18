@@ -1,0 +1,24 @@
+//This file was created via CT-GUI! Editing it is not advised!
+//Don't touch me!
+//#Remove
+//Don't touch me!
+//#Add
+recipes.addShaped(<contenttweaker:legendary_soil> * 2, [[null, <contenttweaker:netherstar_shard>, null],[<extrautils2:ingredients:10>, <contenttweaker:epic_soil>, <extrautils2:ingredients:10>], [null, <extrautils2:ingredients:17>, null]]);
+recipes.addShaped(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:quartzchicken", Gain: 1, Strength: 1}), [[<minecraft:quartz_block>, <minecraft:quartz_block>, <minecraft:quartz_block>],[<minecraft:quartz_block>, <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:smartchicken", Gain: 1, Strength: 1}), <minecraft:quartz_block>], [<minecraft:quartz_block>, <minecraft:quartz_block>, <minecraft:quartz_block>]]);
+recipes.addShaped(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:flintchicken", Gain: 1, Strength: 1}), [[<minecraft:flint>, <minecraft:flint>, <minecraft:flint>],[<minecraft:flint>, <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:smartchicken", Gain: 1, Strength: 1}), <minecraft:flint>], [<minecraft:flint>, <minecraft:flint>, <minecraft:flint>]]);
+recipes.addShaped(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:logchicken", Gain: 1, Strength: 1}), [[<ore:logWood>, <ore:logWood>, <ore:logWood>],[<ore:logWood>, <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:smartchicken", Gain: 1, Strength: 1}), <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+recipes.addShaped(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:sandchicken", Gain: 1, Strength: 1}), [[<sky_orchards:resin_sand>, <sky_orchards:resin_sand>, <sky_orchards:resin_sand>],[<sky_orchards:resin_sand>, <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:smartchicken", Gain: 1, Strength: 1}), <sky_orchards:resin_sand>], [<sky_orchards:resin_sand>, <sky_orchards:resin_sand>, <sky_orchards:resin_sand>]]);
+mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:epic_soil>, <contenttweaker:rare_soil>, <liquid:manyullyn>, 5184, true);
+mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:epic_soil>, <contenttweaker:rare_soil>, <liquid:manyullyn> * 5184, 2000);
+recipes.addShaped(<contenttweaker:rare_soil> * 2, [[null, <actuallyadditions:item_crystal:1>, null],[<tconstruct:materials:10>, <contenttweaker:uncommon_soil>, <tconstruct:materials:10>], [null, <actuallyadditions:item_crystal:1>, null]]);
+recipes.addShaped(<contenttweaker:uncommon_soil> * 2, [[null, <minecraft:dye:2>, null],[<minecraft:vine>, <contenttweaker:common_soil>, <minecraft:vine>], [null, <minecraft:dye:2>, null]]);
+recipes.addShaped(<contenttweaker:common_soil> * 2, [[null, <ore:dyeWhite>, null],[<minecraft:reeds>, <forge:bucketfilled>, <minecraft:reeds>], [null, <ore:dyeWhite>, null]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "crafttweaker:amber_compactor"}), [[<sky_orchards:amber_redstone>, <minecraft:piston>, <sky_orchards:amber_redstone>],[<minecraft:crafting_table>, <extrautils2:machine>, <minecraft:crafting_table>], [<sky_orchards:amber_redstone>, <minecraft:comparator>, <sky_orchards:amber_redstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "crafttweaker:amber_converter"}), [[<sky_orchards:amber_redstone>, <contenttweaker:crystalized_diamond_compressor>, <sky_orchards:amber_redstone>],[<sky_orchards:amber_diamond>, <extrautils2:machine>, <sky_orchards:amber_diamond>], [<sky_orchards:amber_iron>, <minecraft:comparator>, <sky_orchards:amber_iron>]]);
+recipes.addShaped(<contenttweaker:iron_compressor>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],[null, <minecraft:iron_block>, null], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
+recipes.addShaped(<contenttweaker:bone_compressor>, [[<minecraft:bone>, <minecraft:bone>, <minecraft:bone>],[null, <minecraft:bone_block>, null], [<minecraft:bone>, <minecraft:bone>, <minecraft:bone>]]);
+recipes.addShaped(<contenttweaker:stone_compressor>, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],[null, <ore:compressed1xCobblestone>, null], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
+recipes.addShaped(<contenttweaker:wooden_compressor>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],[null, <actuallyadditions:block_misc:4>, null], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
+recipes.addShaped(<contenttweaker:diamond_compressor>, [[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>],[null, <minecraft:diamond_block>, null], [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]]);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:soulsandchicken", Gain: 1, Strength: 1}), <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:sandchicken", Gain: 1, Strength: 1}), 300000);
+//File End

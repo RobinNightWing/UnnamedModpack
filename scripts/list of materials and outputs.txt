@@ -1,0 +1,6 @@
+materialsList = ['dirt','diamond','sand','gravel','iron','coal','clay','copper','tin','emerald','cobalt','ardite','redstone','bone','gold','cottonwood','petrified','silver','osmium','redstone','lapis','lead','quartz','netherrack','glowstone','nickel']
+outputList = ['<extrautils2:compresseddirt>','<minecraft:diamond_ore>', '<extrautils2:compressedsand>', '<extrautils2:compressedgravel>', '<minecraft:iron_ore>', '<minecraft:coal_ore>', '<minecraft:clay>', '<thermalfoundation:ore>', '<thermalfoundation:ore:1>', '<minecraft:emerald_ore>', '<tconstruct:ore>', '<tconstruct:ore:1>', '<minecraft:redstone_block>', '<minecraft:bone_block>', '<minecraft:gold_ore>', '<minecraft:wool>', '<extrautils2:compressedcobblestone>', '<thermalfoundation:ore:2>', '<mekanism:oreblock>', '<minecraft:redstone_block>', '<minecraft:lapis_block>', '<thermalfoundation:ore:3>', '<minecraft:quartz_ore>', '<extrautils2:compressednetherrack>', '<minecraft:glowstone>', '<thermalfoundation:ore:5>']
+
+//recipes.addShaped(<output>, [[input1, input2, input1], [input2, input1, input2], [input1, input2, input1]]);
+
+//recipes.addShaped(<output>, [[input2, input1, input2], [input1, input2, input1], [input2, input1, input2]]);
